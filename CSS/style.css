@@ -17,7 +17,7 @@
 }
 
 .header-brand {
-    width: 120px;
+    width: 200px;
 }
 
 .header-nav {
@@ -31,7 +31,9 @@
 }
 
 .header-nav-item:hover {
-    color: var(--negro);
+    background-color: var(--turquoise);
+    border-radius: 12px;
+    color: var(--blanco);
 }
 
 .header-nav-button {
@@ -107,11 +109,6 @@
     width: 90%;
     background-color: var(--turquesa);
     border-radius: 50%;
-
-h1 {
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-
 }
+
 
