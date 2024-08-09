@@ -1,7 +1,110 @@
-h1 {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
+/* Header */
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header-wrapper {
+    width: 100%;
+    max-width: 1200%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
+.header-brand {
+    width: 120px;
+}
+
+.header-nav {
+    display: flex;
+    gap: 24px;
+}
+
+.header-nav-item {
+    color: var(--negro);
+    padding: 12px 8px;
+}
+
+.header-nav-item:hover {
+    color: var(--negro);
+}
+
+.header-nav-button {
+    color: var(--blanco);
+    font-weight: 900;
+    padding: 12px 24px;
+    border-radius: 12px;
+    background-color: var(--turquesa);
+}
+
+.header-nav-button:hover {
+    background-color: var(--turquoise);
+}
+
+/* Hero */
+
+.hero {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-wrapper {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.hero-content {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-title {
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 64px;
+    color: var(--turquesa);
+    margin-bottom: 24px;
+}
+
+.hero-paragraph {
+    font-size: 22px;
+    line-height: 32px;
+    color: var(--negro);
+    margin-bottom: 24px;
+    hyphens: none;
+}
+
+.hero-button {
+    font-size: 28px;
+    width: fit-content;
+    color: var(--blanco);
+    font-weight: 600;
+    padding: 16px 24px;
+    border-radius: 12px;
+    background-color: var(--turquesa);
+}
+
+.hero-button:hover{
+    background-color: var(--turquoise);
+}
+
+.hero-profile {
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+}
+
+.hero-image {
+    width: 90%;
+    background-color: var(--turquesa);
+    border-radius: 50%;
 }
 
