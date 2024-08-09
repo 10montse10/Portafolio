@@ -1,6 +1,5 @@
 /* resset */
 
-<<<<<<< HEAD
 @charset "UTF-8"
 
 /* 
@@ -25,7 +24,7 @@
     /* Tipografía */
     --tipo-principal: "Helvética", sans-serif;
         --tipo-secundaria: "Poppins", sans-serif;
-=======
+
 @charset "UTF-8";
 /*
 
@@ -43,27 +42,24 @@
   /* Tipografía */
   --tipo-principal:"Montserrat", sans-serif;
   --tipo-secundaria: Verdana;
->>>>>>> 5c196dba70a9ace6a840c3a61918d5fba6bac123
+
 }
 
 /* Las adaptamos al modo oscuro */
 /* @media (prefers-color-scheme: dark) {
-<<<<<<< HEAD
    :root {
     --negro: #ececec;
     }
 } */  
-=======
+
   :root {
     --negro: #ececec;
   } */
 
->>>>>>> 5c196dba70a9ace6a840c3a61918d5fba6bac123
 /* Opcional */
 /* Configuramos si un usuario ha activado el modo alto contraste. (WD) */
 /* Opcional */
 /* Desactivamos los animations en el caso de que el usuario haya configurado el modo sin animation */
-<<<<<<< HEAD
 
 @media (prefers-reduced-motion: reduce) {
     * {
@@ -213,7 +209,7 @@ body {
     -webkit-font-smoothing: antialised;
     /* Opcional */
     -moz-osx-font-smoothing: grayscale;
-=======
+
 @media (prefers-reduced-motion: reduce) {
   * {
     -webkit-animation: none !important;
@@ -345,5 +341,4 @@ body {
   -webkit-font-smoothing: antialiased;
   /* opcional */
   -moz-osx-font-smoothing: grayscale;
->>>>>>> 5c196dba70a9ace6a840c3a61918d5fba6bac123
 }
