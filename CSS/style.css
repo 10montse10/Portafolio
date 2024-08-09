@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Header */
 
 .header {
@@ -106,5 +107,11 @@
     width: 90%;
     background-color: var(--turquesa);
     border-radius: 50%;
+=======
+h1 {
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+>>>>>>> 5c196dba70a9ace6a840c3a61918d5fba6bac123
 }
 
